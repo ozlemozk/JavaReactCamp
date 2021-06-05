@@ -6,8 +6,8 @@ public class Main {
 
 		User user=new User();
 		user.setId(1);
-		user.setName("özlem");
-		user.setRol("öğrenci");
+		user.setName("Ã¶zlem");
+		user.setRol("Ã¶Ã°renci");
 		
 		StudentManager sm=new StudentManager();
 		sm.add(user);
@@ -15,10 +15,10 @@ public class Main {
 		
 		InstructorManager im=new InstructorManager();
 		im.student_add(user);
-        System.out.println("**********");
+        System.out.println("*****");
         
         im.dell(user);
-        System.out.println("**********");
+       
 	}
 
 }
